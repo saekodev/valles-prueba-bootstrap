@@ -77,36 +77,46 @@
         <!-- ACCORDION PARA MOSTRAR INFO DEL LOCAL -->
         <div class="accordion accordion-flush contactoAccordion" id="accordionFlushExample">
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Numero de Contacto de la Mesa Jugona
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Podes contactarte por WhatsApp, respondemos todas las consultas! <span><a href="https://www.whatsapp.com/">(+549)2615123456</a></span></div>
-              </div>
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Numero de Contacto de la Mesa Jugona
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Podes contactarte por WhatsApp, respondemos todas las consultas!
+                        <span><a href="https://www.whatsapp.com/">(+549)2615123456</a></span>
+                    </div>
+                </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Mail de Contacto de la Mesa Jugona
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Podes enviarnos tus dudas, sugerencias o ideas a: <span><a href="https://outlook.live.com/">contacto@spotdelfichin.com</a></div>
-              </div>
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Mail de Contacto de la Mesa Jugona
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Podes enviarnos tus dudas, sugerencias o ideas a: <span><a
+                                href="https://outlook.live.com/">contacto@spotdelfichin.com</a></div>
+                </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Redes Sociales
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Nos vas a encontrar en la mayoria de las redes sociales como <a href="https://www.instagram.com/">@SpotDelFichinMendoza</a></div>
-              </div>
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Redes Sociales
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Nos vas a encontrar en la mayoria de las redes sociales como <a
+                            href="https://www.instagram.com/">@SpotDelFichinMendoza</a></div>
+                </div>
             </div>
-          </div>
+        </div>
 
         <!-- LO HECHO ANTERIORMENTE -->
         <!-- <section class="infoMesa">
@@ -132,12 +142,27 @@
                 <input type="email" name="email" placeholder="Email">
                 <label for="Consulta">Consulta</label>
                 <textarea name="consulta" placeholder="Deja tu consulta aqui" cols="50" rows="5"></textarea>
-                <span>Querés suscribirte al Newsletter del Spot del Fichin
-                    para recibir novedades sobre eventos y juegos de mesa? </span>
-                <input type="checkbox" name="acepta" value="si">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar todo">
-                <input type="button" value="Clickea muchas veces para darnos maná!">
+                <div>Querés suscribirte al Newsletter del Spot del Fichin
+                    para recibir novedades sobre eventos y juegos de mesa?</div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Negativo Camarada
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Quiero recibir todas las noticias, capitan!
+                    </label>
+                </div>
+                <!-- <input type="checkbox" name="acepta" value="si"> -->
+                <div class="selectorContacto">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar todo">
+                    <input type="button" value="Clickea muchas veces para darnos maná!">
+                </div>
             </form>
         </section>
     </main>
