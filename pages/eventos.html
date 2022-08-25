@@ -35,7 +35,7 @@
             <img src="../img/baner2.png" alt="Banner Grande">
         </div>
         <h1 class="tituloUno animate__animated animate__rubberBand">Eventos</h1>
-        <section class="infoEventos">
+        <section class="infoEventos container">
             <h2 class="tituloDos">Info Eventos</h2>
             <p>En Mesa Jugona podes venir con tus amigos y utilizar las mesas para disfrutar de los juegos
                 que tenemos disponibles en el salón.</p>
@@ -44,7 +44,7 @@
             <p>Mira el cronograma completo que vamos subiendo mes a mes, y estate atento a los premios!</p>
         </section>
 
-        <section class="manualEventos">
+        <section class="manualEventos container">
             <h2 class="tituloDos">Manual para los Eventos en la Mesa Jugona</h2>
             <ol>
                 <li>Respeto por sobre todas las cosas, tanto a los jugadores, jueces y personas con quienes
@@ -64,7 +64,7 @@
             </ol>
         </section>
 
-        <section class="tablaEventos">
+        <section class="tablaEventos container m p">
             <h2 class="tituloDos">Tabla de Eventos</h2>
             <table class="tabla" border="5" cellpadding="10" cellspacing="10">
                 <tr>
@@ -88,13 +88,30 @@
             </table>
         </section>
 
-        <section>
-            <span>Selecciona tu juego favorito para ver cuando se acerca el proximo torneo:</span>
-            <select name="JUEGO">
+        <section class="container">
+            <span class="spanEventos">Selecciona tu juego favorito para ver cuando se acerca el proximo torneo:</span>
+            <select  name="JUEGO" class="container text-center">
                 <option value="Magic">Magic The Gathering</option>
                 <option value="Pokemon">Pokemon</option>
                 <option value="YuGiOh">YuGiOh</option>
             </select>
+        </section>
+
+        <!-- PROBANDO GRIDS BOOTSTRAP -->
+        <section>
+            <div class="container text-center">
+                <div class="row gridbst">
+                  <div class="col">
+                    Column
+                  </div>
+                  <div class="col">
+                    Column
+                  </div>
+                  <div class="col">
+                    Column
+                  </div>
+                </div>
+              </div>
         </section>
     </main>
 
