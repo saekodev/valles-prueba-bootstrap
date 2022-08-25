@@ -103,9 +103,44 @@
             </ol>
         </section>
 
-        <section class="tablaEventos container m p">
+        <div class="table-responsive container">
             <h2 class="tituloDos">Tabla de Eventos</h2>
-            <table class="tabla" border="5" cellpadding="10" cellspacing="10">
+            <table class="table align-middle">
+              <thead>
+                <tr>
+                    <th class="tablaTit">Magic</th>
+                    <th>Pokemon</th>
+                    <th>Yu-Gi-Oh</th>
+                    <th>Catan</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>Todos los fines de semana</td>
+                    <td>Todos los fines de semana</td>
+                    <td>Todos los fines de semana</td>
+                    <td>Primer sabado de cada mes</td>
+                </tr>
+                <tr class="align-bottom">
+                    <td>Nocturnos último sabado de cada mes</td>
+                    <td>Nocturnos primer sabado de cada mes</td>
+                    <td>Nocturnos tercer sabado de cada mes</td>
+                    <td>Nocturnos segundo sabado de cada mes</td>
+                </tr>
+                <tr>
+                  <td>...</td>
+                  <td>...</td>
+                  <td class="align-top">This cell is aligned to the top.</td>
+                  <td>...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+
+        <!-- <section class="tablaEventos container">
+            <h2 class="tituloDos">Tabla de Eventos</h2>
+            <table class="tabla" border="10" cellpadding="10" cellspacing="10">
                 <tr>
                     <th>Magic</th>
                     <th>Pokemon</th>
@@ -125,10 +160,11 @@
                     <td>Nocturnos segundo sabado de cada mes</td>
                 </tr>
             </table>
-        </section>
+        </section> -->
 
         <section class="container">
-            <span class="spanEventos">Selecciona tu juego favorito para ver cuando se acerca el proximo torneo:</span>
+            <div class="spanEventos">Selecciona tu juego favorito para ver cuando se acerca el proximo torneo:</div>
+            <!-- Deberia poder abrir algun tipo de calendario -->
             <select  name="JUEGO" class="container">
                 <option value="Magic">Magic The Gathering</option>
                 <option value="Pokemon">Pokemon</option>
