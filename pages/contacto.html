@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- header (se repite en los demas html) -->
+    <header class="header">
+        <a href="../index.html"><img src="../img/dados_logo.png" alt="Imagen Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./tcg.html">TCG</a></li>
+                <li><a href="./juegosDeMesa.html">Juegos de Mesa</a></li>
+                <li><a href="./accesorios.html">Accesorios</a></li>
+                <li><a href="./eventos.html">Eventos</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main (cambiar main de cada html para poder personalizarlos) -->
+    <main class="mainContacto">
+        <div class="banner">
+            <img src="../img/baner2.png" alt="Banner Grande">
+        </div>
+        <h1 class="tituloUno animate__animated animate__rubberBand">Contacto de la Mesa</h1>
+        <section class="infoMesa">
+            <p>Numero de Contacto: <span><a href="https://www.whatsapp.com/">(+549)2615123456</a></span></p>
+            <p>Dirección de Correo: <span><a href="https://outlook.live.com/">contacto@spotdelfichin.com</a></span>
+            </p>
+            <p>Redes Sociales: <span><a href="https://www.instagram.com/">@SpotDelFichinMendoza</a></span></p>
+            <p>Nos encontras Av. San Martin Sur 2940, Godoy Cruz, Mendoza</p>
+            <iframe class="mapaMesa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.7929201530333!2d-68.85978948429728!3d-32.95647627971707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0b96fb21d0f1%3A0x2498e607d8fdc254!2sMesa%20Jugona!5e0!3m2!1ses!2sar!4v1658775418177!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="formularioMesa">
+            <h2 class="tituloTres">Queres dejarnos tu consulta? Escribinos por nuestra web!</h2>
+            <form class="formularioContacto" action="#" method="get">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Nombre Completo">
+                <label for="edad">Fecha de Nacimiento</label>
+                <input type="date" name="edad">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email">
+                <label for="Consulta">Consulta</label>
+                <textarea name="consulta" placeholder="Deja tu consulta aqui" cols="50" rows="5"></textarea>
+                <span>Querés suscribirte al Newsletter del Spot del Fichin
+                    para recibir novedades sobre eventos y juegos de mesa? </span>
+                <input type="checkbox" name="acepta" value="si">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar todo">
+                <input type="button" value="Clickea muchas veces para darnos maná!">
+            </form>
+        </section>
+    </main>
+
+    <!-- footer (se repite en los demas html) -->
+    <footer class="footer">
+        <ul>
+            <li><a href="#">WhatsApp</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+        </ul>
+        <p>Hecho con mucho amor y mana ♡</p>
+    </footer>
+
+    <!-- JS final del Body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
