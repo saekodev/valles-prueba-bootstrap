@@ -264,15 +264,15 @@ input:focus {
 @keyframes headerColor {
   0% {
     background-color: #a3b0e4;
-    transition: 1s;
+    /* transition: 1s; */
   }
   50% {
     background-color: #7c3ba1;
-    transition: 1s;
+    /* transition: 1s; */
   }
   100% {
     background-color: #8c1ef3;
-    transition: 1s;
+    /* transition: 1s; */
   }
 }
 
