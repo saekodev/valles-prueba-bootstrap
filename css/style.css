@@ -258,15 +258,15 @@ input:focus {
 /* KEYFRAMES */
 @keyframes headerColor {
   0% {
-    background-image: #a3b0e4;
+    background-color: #a3b0e4;
     transition: 1s;
   }
   50% {
-    background-image: #7c3ba1;
+    background-color: #7c3ba1;
     transition: 1s;
   }
   100% {
-    background-image: #8c1ef3;
+    background-color: #8c1ef3;
     transition: 1s;
   }
 }
